@@ -18,4 +18,10 @@ public class EstudianteService {
         return repository.getEstudiantes();
     }
 
+    public Estudiante insertarEstudiante(Estudiante estudiante){
+        int pk = repository.getNumeroEstudiantes() + 1;
+        estudiante.setIdEstudiante(pk);
+        return repository.insertarEstudiante(estudiante);
+    }
+
 }
