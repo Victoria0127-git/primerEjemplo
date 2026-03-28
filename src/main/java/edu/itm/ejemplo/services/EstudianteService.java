@@ -24,4 +24,16 @@ public class EstudianteService {
         return repository.insertarEstudiante(estudiante);
     }
 
+    public Estudiante actualizarEstudiante(Estudiante estudiante){
+        return repository.actualizarEstudiante(estudiante);
+    }
+
+    public Estudiante getEstudiante(int id){
+        return repository.getEstudiante(id);
+    }
+
+    public boolean eliminarEstudiante(int id){
+        return repository.eliminarEstudiante(id);
+    }
+
 }

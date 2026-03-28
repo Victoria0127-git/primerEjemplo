@@ -16,4 +16,17 @@ public class EstudianteRepositoryHelper {
     public String insertarEstudiante(){
         return " insert into estudiante (idestudiante, nombres, apellidos, cedula, email) values (?, ?, ?, ?, ?) ";
     }
+
+    public String actualizarEstudiante(){
+        return " update estudiante set nombres = ?, apellidos = ?, cedula = ?, email = ? where idestudiante = ? ";
+    }
+
+    public String obtenerEstudiantePorId(){
+        return " Select idestudiante, nombres, apellidos, cedula, email, fecha_nacimiento from estudiante where idestudiante = ? ";
+    }
+
+    public String eliminarEstudiante(){
+        return " Delete from estudiante where idestudiante = ? ";
+    }
+
 }
