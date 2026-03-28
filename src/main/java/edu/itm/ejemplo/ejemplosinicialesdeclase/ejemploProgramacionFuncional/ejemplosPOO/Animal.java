@@ -1,4 +1,4 @@
-package edu.itm.ejemplo.ejemplosPOO;
+package edu.itm.ejemplo.ejemplosinicialesdeclase.ejemploProgramacionFuncional.ejemplosPOO;
 
 public class Animal {
     private String nombre;

@@ -1,4 +1,4 @@
-package edu.itm.ejemplo.ejemplosPOO;
+package edu.itm.ejemplo.ejemplosinicialesdeclase.ejemploProgramacionFuncional.ejemplosPOO;
 
 public class Carro implements Vehiculo {
     private String marca;

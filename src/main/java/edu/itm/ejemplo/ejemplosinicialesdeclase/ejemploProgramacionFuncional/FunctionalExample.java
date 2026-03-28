@@ -1,4 +1,4 @@
-package edu.itm.ejemplo.ejemploProgramacionFuncional;
+package edu.itm.ejemplo.ejemplosinicialesdeclase.ejemploProgramacionFuncional;
 
 import java.util.HashMap;
 import java.util.Map;

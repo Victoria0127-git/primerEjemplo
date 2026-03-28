@@ -1,4 +1,4 @@
-package edu.itm.ejemplo.ejemplosCollecciones;
+package edu.itm.ejemplo.ejemplosinicialesdeclase.ejemploProgramacionFuncional.ejemplosCollecciones;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
