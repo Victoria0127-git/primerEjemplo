@@ -6,6 +6,6 @@ public class Perro extends Animal{
     }
 
     public void hacerSonido(){
-        System.out.println(" el Perro hace sonido");
+        System.out.println(" el Perro ladra fuerte");
     }
 }
