@@ -53,7 +53,7 @@ public class Carro implements Vehiculo {
     }
 
     public void conducir() {
-        System.out.println(" conduciendo el carro con mucho cuidado");
+        System.out.println(" aprediendo a conducir con mucho cuidado");
     }
 
     @Override
