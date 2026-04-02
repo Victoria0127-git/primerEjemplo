@@ -7,6 +7,6 @@ public class Gato extends Animal{
     }
 
     public void hacerSonido(){
-        System.out.println(" el gato hace sonido");
+        System.out.println(" el gato maulla");
     }
 }
